@@ -1,0 +1,20 @@
+{
+  "name": "vehicle-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "serve": "wsrun --parallel serve",
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "private": true,
+  "workspaces": [
+    "clients/*",
+    "server/"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "wsrun": "^5.2.4"
+  }
+}

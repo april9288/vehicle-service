@@ -1,0 +1,19 @@
+{
+  "name": "vehicle-service-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "serve": "node src/index.js",
+    "build": "node -v"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "0.9.6",
+    "apollo-server": "2.19.1",
+    "graphql": "15.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
