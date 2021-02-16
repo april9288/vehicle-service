@@ -1,8 +1,8 @@
 # Vehicle Service
 > Front-end vehicle service scheduler widget built with Reactjs and GraphQL
 
-## Deployment
-- WIP
+## Overview Diagram
+![](Diagram.png)
 
 ## Development
 - Reactjs 
